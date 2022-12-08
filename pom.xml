@@ -75,7 +75,13 @@
               <artifactId>findbugs-maven-plugin</artifactId>
             </plugin>
 
-            <plugin>
+	    <plugin>
+	      <groupId>org.jacoco</groupId>
+	      <artifactId>jacoco-maven-plugin</artifactId>
+	      <version>0.8.7</version>
+            </plugin>
+	      
+            <plugin>		    
               <groupId>org.codehaus.mojo</groupId>
               <artifactId>taglist-maven-plugin</artifactId>
             </plugin>
